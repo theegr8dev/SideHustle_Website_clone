@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+.sidehustle {
+    margin: 2px;
+    display: flex;
+    padding: 0 13rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 25%;
+    padding: 15px;
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+
+
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: light;
+    color:#000;
+}
+
+.navigation li {
+    padding: 15px
+}
+
+
+.Apply a {
+    background-color: #08386d;
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 33rem 20rem;
+    padding:3.9rem 15rem;
+}
+
+.head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 220%;
+    font-family: 'Montserrat', sans-serif;
+    color:#08386d;
+}
+.head span{
+    color:#52a350;
+}
+
+.about{
+    padding:1.5rem 0;
+}
+
+.about p{
+    color:#08386d;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 170%;
+    text-align: justify;
+}
+.interns{
+    padding:2.7rem 0;
+}
+
+.interns a{
+    text-decoration: none;
+    background-color:#08386d;
+    padding:1rem 1.8rem;
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    box-shadow: 1px -1px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.sponsors h2{
+opacity: 0.5;
+margin:1.7rem 0;
+padding:0 1rem;
+}
+
+
+ .side_image img{
+margin:3rem 10rem;
+
+}
+
+.question p{
+    float:right;
+    margin:-10rem -30rem;
+    text-align:center;
+    color: #28a745;
+    font-size:18px ;
+    font-family:'Montserrat', sans-serif;
+}
